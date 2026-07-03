@@ -2,9 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://dydrkrtks7-cmd.github.io/bp-t3b04-bs-kb-info-1/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://dydrkrtks7-cmd.github.io/bp-t3b04-bs-kb-info-1/posts/checklist-001-1v1qbki.html</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dydrkrtks7-cmd.github.io/bp-t3b04-bs-kb-info-1/posts/compare-005.html</loc>
@@ -49,6 +55,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://dydrkrtks7-cmd.github.io/bp-t3b04-bs-kb-info-1/posts/myth-002-krsifa.html</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://dydrkrtks7-cmd.github.io/bp-t3b04-bs-kb-info-1/posts/normal-1.html</loc>
     <lastmod>2026-05-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -86,7 +98,7 @@
   </url>
   <url>
     <loc>https://dydrkrtks7-cmd.github.io/bp-t3b04-bs-kb-info-1/feed.xml</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
