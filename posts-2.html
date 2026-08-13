@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>글 목록 (2/3) · t3b04-bs-kb-info-1</title>
+  <meta name="description" content="t3b04-bs-kb-info-1에 올라온 글 목록입니다.">
+  <link rel="canonical" href="https://balsan-song-info.node-link.shop/posts-2.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+    :root {
+      --cream-bg: #fdfdfa;
+      --charcoal-fg: #1c1a17;
+      --gold-accent: #c29d6d;
+      --hairline-color: #e6e3db;
+      --serif-font: 'Nanum Myeongjo', serif;
+      --sans-font: 'Outfit', sans-serif;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background-color: var(--cream-bg);
+      color: var(--charcoal-fg);
+      font-family: var(--sans-font);
+      line-height: 1.8;
+      padding: 0 40px;
+    }
+    .wrapper {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 80px 0;
+    }
+    header {
+      border-bottom: 1px solid var(--hairline-color);
+      padding-bottom: 32px;
+      margin-bottom: 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+    .brand {
+      font-family: var(--serif-font);
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--charcoal-fg);
+      text-decoration: none;
+      letter-spacing: 0.05em;
+    }
+    nav { display: flex; gap: 32px; }
+    nav a {
+      color: var(--charcoal-fg);
+      text-decoration: none;
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      transition: color 0.3s ease;
+    }
+    nav a:hover { color: var(--gold-accent); }
+    main { padding-bottom: 80px; }
+    .kicker {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: var(--gold-accent);
+      margin-bottom: 24px;
+    }
+    h1 {
+      font-family: var(--serif-font);
+      font-size: 2.5rem;
+      font-weight: 700;
+      line-height: 1.35;
+      letter-spacing: -0.02em;
+      color: var(--charcoal-fg);
+      margin-bottom: 40px;
+    }
+    .story-body {
+      font-family: var(--serif-font);
+      font-size: 1.15rem;
+      color: var(--charcoal-fg);
+      font-weight: 400;
+      text-align: justify;
+      margin-bottom: 60px;
+    }
+    .story-body p { margin-bottom: 24px; text-indent: 12px; }
+    .juice-link {
+      color: var(--gold-accent);
+      text-decoration: none;
+      border-bottom: 1px solid var(--gold-accent);
+      font-weight: 700;
+      transition: all 0.3s ease;
+    }
+    .juice-link:hover {
+      color: var(--charcoal-fg);
+      border-bottom-color: var(--charcoal-fg);
+    }
+    .editorials {
+      border-top: 1px solid var(--hairline-color);
+      padding-top: 60px;
+    }
+    .editorial-label {
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--gold-accent);
+      margin-bottom: 40px;
+    }
+    .editorial-flow {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+    .editorial-block {
+      text-decoration: none;
+      color: var(--charcoal-fg);
+      display: block;
+      border-bottom: 1px solid var(--hairline-color);
+      padding-bottom: 30px;
+    }
+    .editorial-block:hover h3 { color: var(--gold-accent); }
+    .editorial-block h3 {
+      font-family: var(--serif-font);
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      transition: color 0.3s ease;
+    }
+    .editorial-block p {
+      font-size: 0.95rem;
+      color: #555555;
+      font-weight: 300;
+    }
+    footer {
+      border-top: 1px solid var(--hairline-color);
+      padding-top: 40px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      color: #888888;
+    }
+    footer a { color: #888888; text-decoration: none; }
+    footer a:hover { color: var(--gold-accent); }
+    @media(max-width: 768px) {
+      header { flex-direction: column; gap: 16px; }
+      h1 { font-size: 2rem; }
+      .story-body { font-size: 1.05rem; }
+    }
+  </style>
+  <meta property="og:title" content="글 목록 (2/3) · t3b04-bs-kb-info-1">
+  <meta property="og:description" content="t3b04-bs-kb-info-1에 올라온 글 목록입니다.">
+  <meta property="og:url" content="https://balsan-song-info.node-link.shop/posts-2.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="/" class="brand">EDITORIAL.KR</a>
+      <nav><a href="index.html">HOME</a> | <a href="sitemap.xml">SITEMAP</a></nav>
+    </header>
+    <main>
+      <h1>글 목록</h1>
+      <p>전체 53개 · 2/3 페이지</p>
+      <ul class="post-list">
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0155.html">발산 노래방 정보: 합정 노래방 인원 구성별 추천</a>
+        <p class="post-item__summary">서울 마포구의 합정동은 독특한 문화와 예술이 공존하는 매력적인 지역으로, 젊은이들의 발길이 끊이지 않는 곳입니다. 특히 저녁 시간이 되면 다양한 즐길 거리를 찾는 사람들로 북적이며, 그중에서도 노래</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0156.html">발산 노래방 정보 탐색 대신 연남 클럽 추천정보 비교법</a>
+        <p class="post-item__summary">주말 저녁을 앞두고 서울의 다양한 유흥가 중에서 어디로 발길을 돌릴지 고민하고 계시지는 않습니까? 유용한 발산 노래방 정보 검색으로 시작했던 밤거리에 대한 갈증이 자연스럽게 젊음의 에너지가 넘쳐나는</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0157.html">발산 노래방 정보 찾기보다 확실한 합정 셔츠룸 추천정보 판별</a>
+        <p class="post-item__summary">첫 번째 단계는 온라인 공간에 범람하는 다양한 밤문화 소문 중에서 진짜 알짜배기 조언을 가려내는 일부터 시작됩니다. 흔히 검색하게 되는 발산 노래방 정보처럼 대중적인 유흥 정보 사이에서도 유독 과장</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0158.html">발산 노래방 정보 대비 합리적인 공덕 가라오케 추천정보 분석</a>
+        <p class="post-item__summary">비즈니스 모임이나 회식의 마무리 장소를 결정할 때, 정해진 예산 안에서 최적의 만족도를 내는 것은 무척 까다로운 일입니다. 많은 직장인들이 익숙한 발산 노래방 정보 등을 토대로 일반 노래방을 선택할</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0159.html">발산 노래방 정보: 상수 마사지 추천 정보 예약 절차</a>
+        <p class="post-item__summary">발산 노래방 정보를 찾으시는 분들 중, 의외로 지역 명칭 혼동으로 인해 원치 않는 정보를 얻는 경우가 발생하곤 합니다. 특히, '발산'이라는 이름으로 검색했을 때 연관성이 적은 지역의 정보를 접하게</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0160.html">발산 노래방 정보: 망원 노래방 추천 정보 확인 항목</a>
+        <p class="post-item__summary">발산 노래방 정보를 검색하다가 뜻하지 않게 다른 지역의 정보를 접하는 경우가 있습니다. 특히, '발산'이라는 키워드 외에 다른 지역 정보까지 함께 노출되는 경우, 원하는 정보를 정확히 찾는 데 어려</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0161.html">발산 노래방 정보: 홍대 노래방 추천 정보 초행자 주의점</a>
+        <p class="post-item__summary">발산 노래방 정보를 검색하시는 분들 중, 때로는 검색 결과에 포함된 연관성 낮은 정보를 보고 혼란을 겪으실 수 있습니다. '발산'이라는 키워드만으로는 원하는 정확한 정보를 얻기 어려울 수 있으며, </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0162.html">발산 노래방 정보 기반으로 알아보는 공덕 셔츠룸 추천정보 및 이용 팁</a>
+        <p class="post-item__summary">많은 이들이 유흥 문화를 단순히 자극적인 요소로만 치부하곤 하지만, 이는 정보의 비대칭성에서 오는 흔한 오해입니다. 사실 제대로 된 시설을 선택한다면 충분히 격식 있고 편안한 비즈니스 미팅이나 사교</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0163.html">발산 노래방 정보 통해 확인하는 연남 유흥 추천정보 및 인원 구성 가이드</a>
+        <p class="post-item__summary">완벽한 저녁 모임을 위해서는 방문할 장소의 인프라, 가격의 투명성, 그리고 서비스의 퀄리티라는 세 가지 필수 조건이 갖춰져야 합니다. 특히 발산 노래방 정보 검색을 습관화해 온 분들이라면 연남 지역</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0164.html">발산 노래방 정보 찾아보는 분들을 위한 마곡 가라오케 추천정보 및 비교 기준</a>
+        <p class="post-item__summary">평소 즐겨 찾던 유흥 시설과는 차별화된 경험을 원해본 적이 있으신가요? 발산 노래방 정보 위주로만 정보를 습득했다면, 이제는 마곡 지역의 전문 가라오케가 제공하는 깊이 있는 서비스에 주목해 볼 필요</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0165.html">발산 노래방 정보 확인을 통해 찾는 마곡 유흥 추천정보 가이드</a>
+        <p class="post-item__summary">발산 노래방 정보를 검색하는 과정에서 가장 먼저 고려해야 할 점은 해당 장소의 투명한 운영 방식입니다. 인터넷에 떠도는 정보들 사이에서 신뢰할 수 있는 데이터를 선별하는 작업이 우선되어야 합니다. </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/guide-003.html">야, 너도 아식스 젤 카야노 14 OG 아이보리 쪼잔함 알지?</a>
+        <p class="post-item__summary">이번에 아식스 젤 카야노 14 OG 아이보리 컬러웨이 리스탁 나온 거 봤냐? 2023년 버전 말이야. 겉보기엔 똑같아 보여도, 그거 인솔 로고 프린트 살짝 바뀌었더라? 이게 별거 아닌 것 같지? 나</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/guide-004.html">야, 너도 아식스 카야노 14 찐 오리지널 신발 끈 묶을 줄 알아?</a>
+        <p class="post-item__summary">분명히, 예전 버전에는 인솔에 찍혀 나오던 그 로고 있잖아. 그거 위치나, 폰트나, 뭔가 좀 다르게 나온 것 같지 않냐? 내가 또 그런 거 기가 막히게 잘 보거든. 뭐, 너네 눈에는 똑같아 보일 수</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/interview-001-1s2ggo3.html">중고 리셀러의 관점에서 본 아식스 젤 카야노 14 OG 아이보리 리스탁 로고 변경</a>
+        <p class="post-item__summary">---</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/interview-001-xjp6yv.html">발산 노래방에서 마이크 음향 밸런스를 확인하는 가장 확실한 방법</a>
+        <p class="post-item__summary">발산 일대 노래방을 다니다 보면 겉모습만 번지르르하게 꾸며놓고 정작 중요한 마이크 소리는 엉망인 곳이 태반이다. 이런 곳은 노래를 부르는 게 아니라 소음 공해를 만드는 꼴이다. 좋은 노래방의 기준은</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/interview-002-1adj4ck.html">발산 노래방 정보</a>
+        <p class="post-item__summary">발산역 인근은 다양한 편의 시설이 밀집한 곳으로 퇴근 후나 모임 이후에 노래방을 찾는 사람들이 많습니다. 이 지역의 노래방들은 주로 번화가 중심부와 역 근처 상가 건물 내에 고루 분포하고 있습니다.</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/interview-002-1vg148x.html">발산 노래방 정보</a>
+        <p class="post-item__summary">발산역 인근은 다양한 유흥 시설이 밀집한 지역으로 퇴근 후나 모임 이후 시간을 보내기에 적합한 노래방들이 많이 운영되고 있습니다. 이 지역의 노래방들은 현대적인 시설과 쾌적한 환경을 갖추고 있어 방</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/juice-1.html">발산 노래방 정보</a>
+        <p class="post-item__summary">발산 지역의 노래방은 다양한 실내 환경과 음향 시설을 갖추고 있습니다. 이용 목적에 따라 개별 실 또는 모임 공간 선택이 가능할 수 있으며, 주변 접근성과 함께 운영 중인 업소의 특성을 확인하는 것</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/juice-2.html">발산 노래방 정보 및 기록 정리 방법</a>
+        <p class="post-item__summary">발산 지역의 노래방을 이용할 때는 단순히 시설을 찾는 것을 넘어, 필요한 정보를 체계적으로 파악하는 것이 중요합니다. 지역마다 제공되는 서비스와 환경이 다르기 때문에, 사전에 명확한 정보를 확인하는</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/myth-001-1n140m3.html">발산 노래방 정보</a>
+        <p class="post-item__summary">발산 지역은 서울 강서구에 위치하고 있으며 지하철 5호선과 다수의 버스 노선이 지나가 대중교통 이용이 매우 편리한 상권으로 알려져 있습니다. 이러한 교통 여건 덕분에 인근 직장인과 대학생 그리고 주</p>
+      </li>
+      </ul>
+    <nav class="pager">
+      <a class="pager__link" href="posts.html">1</a>
+      <span class="pager__current">2</span>
+      <a class="pager__link" href="posts-3.html">3</a>
+    </nav>
+    </main>
+  </div>
+</body>
+</html>
